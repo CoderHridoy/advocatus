@@ -1,0 +1,398 @@
+@media (min-width: 1170px) and (max-width: 1300px) {
+    .navigation-bar {
+        padding: 20px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169.98px) {
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    .navigation-bar {
+        padding: 20px 0;
+        overflow: hidden;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+    }
+
+    .main-nav {
+        display: block;
+        float: right;
+        margin-left: 0;
+    }
+
+    .header-img {
+        height: auto;
+    }
+
+    .grid-portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-publications-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 8px;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    .navigation-bar {
+        padding: 20px 0;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .main-nav li a {
+        font-size: 11px;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+    }
+
+    .main-nav {
+        display: block;
+        float: right;
+        margin-left: 0;
+    }
+
+    .header-img {
+        height: auto;
+    }
+
+    .grid-portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 40px;
+        left: 450px;
+    }
+
+    .grid-publications-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-faq-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        font-size: 8px;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    header .row {
+        width: 100%;
+    }
+
+    .navigation-bar {
+        padding: 20px 0;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .main-nav li a {
+        font-size: 10px;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+    }
+
+    .main-nav {
+        display: block;
+        float: right;
+        margin-left: 0;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    .main-nav li:first-child {
+        margin-left: 0;
+    }
+
+    .header-img {
+        height: auto;
+    }
+
+    .grid-about-us-container {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+
+    .grid-practise-area-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-lawyers-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+        grid-gap: 80px;
+    }
+
+    .grid-portfolio-item img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+    }
+
+    .grid-publications-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-faq-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .grid-contact-item:first-child {
+        padding-top: 50px;
+    }
+
+    .grid-contact-item {
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .main-nav {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+        float: right;
+    }
+
+    .menu-container {
+        display: block;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    .navigation-bar {
+        padding: 15px 0;
+        overflow: hidden;
+    }
+
+    .header-img {
+        height: auto;
+    }
+
+    .grid-about-us-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-practise-area-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-lawyers-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .grid-lawyers-item img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: 80px;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+    }
+
+    .grid-publications-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .card-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-faq-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-faq-item:last-child {
+        margin-top: 30px;
+    }
+
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .grid-contact-item:first-child {
+        padding-top: 50px;
+    }
+
+    .grid-contact-item {
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479.98px) {
+    .main-nav {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+        float: right;
+    }
+
+    .menu-container {
+        display: block;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    .navigation-bar {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+
+    .header-img {
+        height: auto;
+    }
+
+    .grid-about-us-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-nested-item p {
+        font-size: 110%;
+    }
+
+    .grid-practise-area-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-lawyers-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .grid-lawyers-item img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: 80px;
+    }
+
+    .grid-portfolio-item img {
+        box-shadow: none;
+        width: 280px;
+        height: auto;
+    }
+
+    .grid-portfolio-item p {
+        font-size: 100%;
+    }
+
+    .grid-portfolio-item i {
+        display: none;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 0px;
+        left: 180px;
+    }
+
+    .grid-publications-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .card-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-faq-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-faq-item:last-child {
+        margin-top: 100px;
+    }
+
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .grid-contact-item:first-child {
+        padding-top: 50px;
+    }
+
+    .grid-contact-item {
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}
